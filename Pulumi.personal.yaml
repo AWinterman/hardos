@@ -1,0 +1,7 @@
+config:
+  hardos:hC@h6tGT@a2gQCBAVjm@wjLc:
+    secure: AAABAKqtQWqmr5nk1FVMLnlTT/zFhTLWcy9jZelAk6vHPdhd38nuDO47lJLqZZWNig1ADIgkhJY=
+  hardos:node_password:
+    secure: AAABAMB0UYBfLs+JFoJbRej2zWeby0m3r+gZox3J8e8BF3SFYejIthnz/jVz4fVrMwuZslyr7Qo=
+  linode:token:
+    secure: AAABAOV9KYbgHuDW8yuZcnR7E6uZCrbBG08R06TpeRIw0W8KB+kofVFzvl+P4aMsFa1D8WdTrFqGcxtMs4uUpXe9XoXUv4X9n9AguVbXPGfQFjhjPIZuW3NBd3sAhPS6

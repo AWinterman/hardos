@@ -1,0 +1,3 @@
+name: hardos
+runtime: go
+description: kubernetes the hardway with pulumi and linode
