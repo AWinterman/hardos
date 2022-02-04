@@ -1,0 +1,46 @@
+{
+    "version": 3,
+    "deployment": {
+        "manifest": {
+            "time": "2022-01-20T22:10:14.661557-08:00",
+            "magic": "c51f7579a74e3b22b75681e48e5eb7c86e9b44fb0ab7aa4d27aca5090bd933ea",
+            "version": "v3.22.1"
+        },
+        "secrets_providers": {
+            "type": "service",
+            "state": {
+                "url": "https://api.pulumi.com",
+                "owner": "Winterman",
+                "project": "hardos",
+                "stack": "personal"
+            }
+        },
+        "resources": [
+            {
+                "urn": "urn:pulumi:personal::hardos::pulumi:pulumi:Stack::hardos-personal",
+                "custom": false,
+                "type": "pulumi:pulumi:Stack"
+            },
+            {
+                "urn": "urn:pulumi:personal::hardos::pulumi:providers:linode::default",
+                "custom": true,
+                "id": "c4c7202d-b91c-4220-a961-0793ebb508fb",
+                "type": "pulumi:providers:linode",
+                "inputs": {
+                    "token": {
+                        "4dabf18193072939515e22adb298388d": "1b47061264138c4ac30d75fd1eb44270",
+                        "ciphertext": "AAABAJNYE1lSH2jWaYbCCHMRUY4LWWOCfJ9VCUYliHLYVvGPv2dYm5cQeaTaLIn4arqicVUpWRi3g+qWIn2yFxscu51t2AUo4j25Mk/cKxDyhTPcs695KL6ZrQdcV1uK66A="
+                    },
+                    "version": "3.7.0"
+                },
+                "outputs": {
+                    "token": {
+                        "4dabf18193072939515e22adb298388d": "1b47061264138c4ac30d75fd1eb44270",
+                        "ciphertext": "AAABAJNYE1lSH2jWaYbCCHMRUY4LWWOCfJ9VCUYliHLYVvGPv2dYm5cQeaTaLIn4arqicVUpWRi3g+qWIn2yFxscu51t2AUo4j25Mk/cKxDyhTPcs695KL6ZrQdcV1uK66A="
+                    },
+                    "version": "3.7.0"
+                }
+            }
+        ]
+        
+}}
